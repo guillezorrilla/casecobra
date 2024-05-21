@@ -1,0 +1,24 @@
+{
+  "recommendations": [
+    "pkief.material-icon-theme",
+    "eamodio.gitlens",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "wmaurer.change-case",
+    "mikestead.dotenv",
+    "usernamehw.errorlens",
+    "dbaeumer.vscode-eslint",
+    "mhutchie.git-graph",
+    "github.copilot",
+    "github.copilot-chat",
+    "github.vscode-github-actions",
+    "ms-vscode.vscode-typescript-next",
+    "quicktype.quicktype",
+    "yoavbls.pretty-ts-errors",
+    "esbenp.prettier-vscode",
+    "stylelint.vscode-stylelint",
+    "bradlc.vscode-tailwindcss",
+    "meganrogge.template-string-converter",
+    "prisma.prisma"
+  ]
+}
