@@ -41,6 +41,7 @@ export function constructMetadata({
       images: [image],
       creator: '@guillezorri'
     },
-    icons
+    icons,
+    metadataBase: new URL('https://casecobra-weld.vercel.app/')
   };
 }
