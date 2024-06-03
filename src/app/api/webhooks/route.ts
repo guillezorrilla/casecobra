@@ -2,7 +2,6 @@ import { db } from '@/db';
 import { stripe } from '@/lib/stripe';
 import { headers } from 'next/headers';
 import { NextResponse } from 'next/server';
-import Stripe from 'stripe';
 import { Resend } from 'resend';
 import OrderReceivedEmail from '@/components/emails/OrderRecievedEmail';
 
@@ -38,6 +37,8 @@ export async function POST(req: Request) {
       if (!userId || !orderId) {
         throw new Error('Invalid request metadata');
       }
+
+      debugger;
 
       const billingAddress = session.customer_details!.address;
       const shippingAddress = session.customer_details!.address;
